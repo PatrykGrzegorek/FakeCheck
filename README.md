@@ -12,6 +12,11 @@
 9. Load seed database `python manage.py loaddata db.json`
 10. To run dev server: `python manage.py runserver`
 
+### with Docker
+1. Download repo
+2. Run `docker-compose up` in it
+3. Ready. Thing is accessible at localhost:8000. Stopping and starting containers again results in making whole new migrations and reseting database (sqlite) content. Watching scss and js assets for changes is also active.
+
 ## Tips for devs
 
 ### Dumping pip installations into the file
